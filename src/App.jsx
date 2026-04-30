@@ -7,8 +7,8 @@ const content = {
     scrollText: "Aşağı Kaydır",
     sections: {
       summary: {
-        title: "Profesyonel Özet",
-        text: "Frontend geliştirme (React, Next.js, Tailwind CSS) deneyimi ve Blender ile güçlü 3D modelleme becerilerine sahip Bilgisayar Mühendisliği mezunu. Full-stack çözümler, gerçek zamanlı uygulamalar ve etkileşimli 3D görseller sunma konusunda yetenekli. Teknik uzmanlığı yaratıcı tasarımla birleştirme konusunda tutkulu."
+        title: "Hakkımda",
+        text: "Bilgisayar Mühendisliği mezunuyum. React, Next.js ve Tailwind CSS ile frontend geliştirme yapıyorum, aynı zamanda Blender ile 3D modelleme işleriyle uğraşıyorum. Kod yazmayı ve 3D sanat üretmeyi bir arada tutmayı seviyorum - bence ikisi birbirini çok güzel tamamlıyor."
       },
       skills: {
         title: "Teknik Beceriler",
@@ -32,10 +32,10 @@ const content = {
           company: "Elmalı Tech",
           date: "03/2025 – 06/2025",
           tasks: [
-            "MonGuardian'ın geliştirilmesine liderlik ettim: domain sağlık takibi, SEO izleme ve gerçek zamanlı durum güncellemeleri ile web izleme ve analitik platformu.",
-            "ElmaliCollectibles'ı geliştirdim: kimlik doğrulama, gerçek zamanlı veritabanı ve duyarlı UI ile React.js, Firebase, Tailwind CSS tabanlı uygulama.",
-            "AdLambs'ı oluşturdum: Node.js, Express.js, PostgreSQL, React TypeScript ve AWS S3 entegrasyonu ile reklam takip ve analitik platformu.",
-            "Frontend, backend, mobil uygulamalar ve SQL veritabanları içeren 10+ projeye katkıda bulundum."
+            "MonGuardian projesinin geliştirmesinde yer aldım. Domain sağlığı, SEO takibi ve anlık durum güncellemelerini yöneten bir web izleme platformu.",
+            "ElmaliCollectibles'ı yazdım. React.js, Firebase ve Tailwind CSS kullandım. Kullanıcı girişi, gerçek zamanlı veritabanı ve mobil uyumlu arayüz var.",
+            "AdLambs'ı sıfırdan kurdum. Node.js, Express, PostgreSQL ve React TypeScript ile reklam takip sistemi. AWS S3 entegrasyonu da ben yaptım.",
+            "Toplamda 10'dan fazla projede çalıştım - frontend, backend, mobil ve veritabanı taraflarında."
           ]
         },
         job2: {
@@ -43,7 +43,7 @@ const content = {
           company: "Pia Bilişim Hizmetleri",
           date: "07/2022 – 08/2022",
           tasks: [
-            "Çevik proje ortamında manuel ve otomatik test öğrendim ve uyguladım."
+            "Çevik bir ortamda manuel ve otomatik test süreçlerini öğrendim, uyguladım."
           ]
         }
       },
@@ -52,15 +52,15 @@ const content = {
         items: [
           {
             name: "Restoran Yönetim Sistemi",
-            desc: "Next.js 14, React 18, Tailwind CSS, Ant Design, Framer Motion, Three.js ile geliştirildi. Duyarlı UI, entegre gerçek zamanlı bildirimler, 3D animasyonlar ve ödeme sistemleri uygulandı. Docker ile AWS App Runner'da dağıtıldı."
+            desc: "Next.js 14, React 18, Tailwind CSS, Ant Design, Framer Motion ve Three.js kullandım. Gerçek zamanlı bildirimler, 3D animasyonlar ve ödeme sistemi ekledim. Docker ile AWS'e deploy ettim."
           },
           {
             name: "Kamera ile İşaret Dili Tespiti",
-            desc: "CNN & LSTM modelleri (TensorFlow/Keras) kullanarak Türk işaret dili tanıma sistemi. OpenCV ve CameraX ile veri toplama pipeline'ı. 30 FPS'de %85+ doğruluk, model boyutu 73MB'dan 18MB'a optimize edildi."
+            desc: "TensorFlow/Keras ile CNN & LSTM modelleri eğittim. Türk işaret dilini tanıyan bir sistem yaptım. OpenCV ve CameraX ile veri topladım. 30 FPS'de %85+ doğruluk yakaladım, modeli 73MB'dan 18MB'a indirdim."
           },
           {
             name: "DigiRoom - Otel Yönetim Sistemi",
-            desc: "Next.js, TypeScript ve React ile modern otel yönetim web uygulaması. JWT kimlik doğrulama, RESTful API entegrasyonu, gerçek zamanlı dashboard, oda servisi sipariş modülü ve çoklu otel desteği."
+            desc: "Next.js, TypeScript ve React ile otel yönetim paneli geliştirdim. JWT auth, RESTful API, gerçek zamanlı dashboard ve oda servisi modülü var. Birden fazla oteli destekliyor."
           }
         ]
       },
@@ -101,8 +101,8 @@ const content = {
     scrollText: "Scroll Down",
     sections: {
       summary: {
-        title: "Professional Summary",
-        text: "Computer Engineering graduate with frontend development experience (React, Next.js, Tailwind CSS) and strong 3D modeling skills with Blender. Skilled in delivering full-stack solutions, real-time applications, and interactive 3D visuals. Passionate about combining technical expertise with creative design."
+        title: "About Me",
+        text: "I'm a Computer Engineering graduate. I build frontends with React, Next.js, and Tailwind CSS, and I also do 3D modeling in Blender. I love working at the intersection of code and art - they complement each other more than you'd think."
       },
       skills: {
         title: "Technical Skills",
@@ -126,10 +126,10 @@ const content = {
           company: "Elmalı Tech",
           date: "03/2025 – 06/2025",
           tasks: [
-            "Led development of MonGuardian: web monitoring and analytics platform with domain health tracking, SEO monitoring, and real-time status updates.",
-            "Developed ElmaliCollectibles: React.js, Firebase, Tailwind CSS based application with authentication, real-time database, and responsive UI.",
-            "Built AdLambs: ad tracking and analytics platform with Node.js, Express.js, PostgreSQL, React TypeScript, and AWS S3 integration.",
-            "Contributed to 10+ projects involving frontend, backend, mobile applications, and SQL databases."
+            "Worked on MonGuardian - a web monitoring platform that tracks domain health, SEO metrics, and real-time status updates.",
+            "Built ElmaliCollectibles from scratch using React.js, Firebase, and Tailwind CSS. Includes auth, real-time database, and responsive UI.",
+            "Created AdLambs - an ad tracking and analytics platform with Node.js, Express, PostgreSQL, React TypeScript, and AWS S3.",
+            "Contributed to 10+ projects spanning frontend, backend, mobile apps, and databases."
           ]
         },
         job2: {
@@ -137,7 +137,7 @@ const content = {
           company: "Pia Bilişim Services",
           date: "07/2022 – 08/2022",
           tasks: [
-            "Learned and applied manual and automated testing in an agile project environment."
+            "Learned and practiced manual and automated testing in an agile environment."
           ]
         }
       },
@@ -146,15 +146,15 @@ const content = {
         items: [
           {
             name: "Restaurant Management System",
-            desc: "Developed with Next.js 14, React 18, Tailwind CSS, Ant Design, Framer Motion, Three.js. Implemented responsive UI, real-time notifications, 3D animations, and payment systems. Deployed on AWS App Runner with Docker."
+            desc: "Built with Next.js 14, React 18, Tailwind CSS, Ant Design, Framer Motion, and Three.js. Added real-time notifications, 3D animations, and payment integration. Deployed on AWS with Docker."
           },
           {
             name: "Sign Language Detection with Camera",
-            desc: "Turkish sign language recognition system using CNN & LSTM models (TensorFlow/Keras). Data collection pipeline with OpenCV and CameraX. Achieved 85%+ accuracy at 30 FPS, optimized model from 73MB to 18MB."
+            desc: "Trained CNN & LSTM models using TensorFlow/Keras to recognize Turkish sign language. Built a data pipeline with OpenCV and CameraX. Got 85%+ accuracy at 30 FPS and shrunk the model from 73MB to 18MB."
           },
           {
             name: "DigiRoom - Hotel Management System",
-            desc: "Modern hotel management web app with Next.js, TypeScript, and React. JWT authentication, RESTful API integration, real-time dashboard, room service ordering module, and multi-hotel support."
+            desc: "Built a hotel management dashboard with Next.js, TypeScript, and React. Features JWT auth, RESTful API, real-time dashboard, room service ordering, and multi-hotel support."
           }
         ]
       },
@@ -195,8 +195,8 @@ const content = {
     scrollText: "下にスクロール",
     sections: {
       summary: {
-        title: "プロフィール",
-        text: "フロントエンド開発（React、Next.js、Tailwind CSS）の経験とBlenderによる強力な3Dモデリングスキルを持つコンピュータ工学卒業生。フルスタックソリューション、リアルタイムアプリケーション、インタラクティブな3Dビジュアルの提供に長けています。技術的専門知識とクリエイティブデザインの融合に情熱を持っています。"
+        title: "自己紹介",
+        text: "コンピュータ工学を専攻しました。React、Next.js、Tailwind CSSでフロントエンド開発をしながら、Blenderで3Dモデリングもやっています。コードとアートの両方が好きで、この二つを組み合わせることに面白さを感じています。"
       },
       skills: {
         title: "技術スキル",
@@ -220,10 +220,10 @@ const content = {
           company: "Elmalı Tech",
           date: "2025年3月 – 2025年6月",
           tasks: [
-            "MonGuardianの開発をリード：ドメインヘルス追跡、SEO監視、リアルタイムステータス更新を備えたWeb監視・分析プラットフォーム。",
-            "ElmaliCollectiblesを開発：認証、リアルタイムデータベース、レスポンシブUIを備えたReact.js、Firebase、Tailwind CSSベースのアプリケーション。",
-            "AdLambsを構築：Node.js、Express.js、PostgreSQL、React TypeScript、AWS S3統合による広告追跡・分析プラットフォーム。",
-            "フロントエンド、バックエンド、モバイルアプリ、SQLデータベースを含む10以上のプロジェクトに貢献。"
+            "MonGuardianの開発に携わりました。ドメインヘルス追跡、SEO監視、リアルタイムステータス更新ができるWeb監視プラットフォームです。",
+            "ElmaliCollectiblesをゼロから作りました。React.js、Firebase、Tailwind CSSを使って、認証、リアルタイムDB、レスポンシブUIを実装しました。",
+            "AdLambsを構築しました。Node.js、Express、PostgreSQL、React TypeScriptで広告追跡システムを作り、AWS S3も統合しました。",
+            "合計10以上のプロジェクトに参加しました。フロントエンド、バックエンド、モバイル、データベースと幅広く経験しました。"
           ]
         },
         job2: {
@@ -231,7 +231,7 @@ const content = {
           company: "Pia Bilişim Services",
           date: "2022年7月 – 2022年8月",
           tasks: [
-            "アジャイルプロジェクト環境でマニュアルおよび自動テストを学び、実践しました。"
+            "アジャイル環境で手動テストと自動テストを学び、実践しました。"
           ]
         }
       },
@@ -240,15 +240,15 @@ const content = {
         items: [
           {
             name: "レストラン管理システム",
-            desc: "Next.js 14、React 18、Tailwind CSS、Ant Design、Framer Motion、Three.jsで開発。レスポンシブUI、リアルタイム通知、3Dアニメーション、決済システムを実装。DockerでAWS App Runnerにデプロイ。"
+            desc: "Next.js 14、React 18、Tailwind CSS、Ant Design、Framer Motion、Three.jsで作りました。リアルタイム通知、3Dアニメーション、決済システムを実装。DockerでAWSにデプロイしました。"
           },
           {
             name: "カメラによる手話検出",
-            desc: "CNN＆LSTMモデル（TensorFlow/Keras）を使用したトルコ手話認識システム。OpenCVとCameraXによるデータ収集パイプライン。30FPSで85%以上の精度を達成、モデルサイズを73MBから18MBに最適化。"
+            desc: "TensorFlow/KerasでCNN＆LSTMモデルを学習させて、トルコ手話を認識するシステムを作りました。OpenCVとCameraXでデータを集めました。30FPSで85%以上の精度を出し、モデルを73MBから18MBに圧縮しました。"
           },
           {
             name: "DigiRoom - ホテル管理システム",
-            desc: "Next.js、TypeScript、Reactによるモダンなホテル管理Webアプリ。JWT認証、RESTful API統合、リアルタイムダッシュボード、ルームサービス注文モジュール、マルチホテルサポート。"
+            desc: "Next.js、TypeScript、Reactでホテル管理ダッシュボードを開発しました。JWT認証、RESTful API、リアルタイムダッシュボード、ルームサービス注文機能があります。複数ホテルに対応しています。"
           }
         ]
       },
@@ -575,13 +575,13 @@ function App() {
                 <span>GitHub</span>
               </a>
 
-              <a href="https://www.bugrakadioglu.dev" 
+              <a href="https://www.artstation.com/bugrakadioglu" 
                  target="_blank" rel="noopener noreferrer" className="contact-link portfolio">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm-1 17.5v-4H8l5-9v5h3l-5 8z"/></svg>
                 <span>Portfolio</span>
               </a>
 
-              <a href="https://www.artstation.com/efrosiyal" 
+              <a href="https://www.artstation.com/bugrakadioglu" 
                  target="_blank" rel="noopener noreferrer" className="contact-link artstation">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 17.723l2.027 3.505h.001a2.424 2.424 0 0 0 2.164 1.333h13.457l-2.792-4.838H0zm24-2.596l-5.939-10.29a2.43 2.43 0 0 0-2.109-1.218H9.982l9.466 16.39H24a2.42 2.42 0 0 0 2.418-2.418c0-.399-.106-.79-.3-1.14l-.118-.324zM8.687 14.729L5.687 9.5l-3 5.229h6z"/></svg>
                 <span>ArtStation</span>
@@ -599,7 +599,7 @@ function App() {
               </a>
             </div>
 
-            <a href="https://www.artstation.com/efrosiyal" target="_blank" rel="noopener noreferrer" className="portfolio-btn">
+            <a href="https://www.artstation.com/bugrakadioglu" target="_blank" rel="noopener noreferrer" className="portfolio-btn">
               {t.sections.contact.portfolio} →
             </a>
 
